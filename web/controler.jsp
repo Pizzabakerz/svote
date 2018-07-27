@@ -71,8 +71,7 @@ if(!(cong==null)){
                 out.println(e);
                 }
 }
-           }
-           else{
+
            if(!(bjp ==null)) {
             try{
                 session.setAttribute("voted", bjp);
@@ -111,9 +110,7 @@ if(!(cong==null)){
                 out.println(e);
                 }
 }    
-    
-            
-}
+           }
        
         %>
     </body>
